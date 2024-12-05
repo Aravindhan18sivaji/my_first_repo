@@ -1,0 +1,25 @@
+provider "azurerm" {
+  features {}
+}
+
+
+
+
+
+
+
+
+resource "azurerm_databricks_workspace" "databricks_workspace_production" {
+  name                = "databricksfor1122dbfs"
+  resource_group_name = "Aravindh"
+  location            = "Central India"
+  sku                 = "standard"
+
+
+}
+
+
+
+
+
+
